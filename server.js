@@ -44,7 +44,6 @@ var str_hora = hora + ':' + min + ':' + seg;
 
 // Mostra o resultado
 
-alert('Hoje é ' + str_data + ' às ' + str_hora);
-    res.send("data");
+res.send('Hoje é ' + str_data + ' às ' + str_hora);
 
 });
